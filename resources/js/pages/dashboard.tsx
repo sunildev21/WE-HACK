@@ -2,12 +2,13 @@ import { PlaceholderPattern } from '@/components/ui/placeholder-pattern';
 import AppLayout from '@/layouts/app-layout';
 import { type BreadcrumbItem } from '@/types';
 import { Head } from '@inertiajs/react';
+import {SendHorizontal} from 'lucide-react';
 import { useState } from 'react';
 import axios from 'axios';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
-        title: 'Dashboard',
+        title: 'Overview',
         href: '/dashboard',
     },
 ];
@@ -79,9 +80,9 @@ export default function Dashboard() {
                 <button
                     type="submit"
                     disabled={loading}
-                    className="bg-green-600 text-white px-4 rounded hover:bg-green-700 disabled:opacity-50"
+                    className=" bg-neutral-900 text-white px-4 rounded-lg hover:bg-neutral-950 disabled:opacity-50"
                 >
-                    Send
+                    <SendHorizontal />
                 </button>
             </form>
         </div>
