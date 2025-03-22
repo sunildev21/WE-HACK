@@ -10798,4 +10798,22 @@
                 |-- Assert.php
                 |-- InvalidArgumentException.php
                 |-- Mixin.php
+    |-- _laravel_ide
+        |-- discover-1180853afdec2df68b8101f27487d6f9.php
+        |-- discover-1e7ea3cf42a2f9b84f3de09530e2c135.php
+        |-- discover-31b934f114eabc246b541addb8b458e3.php
+        |-- discover-320fe5c5b7f0175eae37c44f264ceb08.php
+        |-- discover-476fe65492650d7ce55de1f8f96024c5.php
+        |-- discover-5802e590a92e23606bb54d2909564178.php
+        |-- discover-67043687ec5f16a5c4357b3dc049d2d5.php
+        |-- discover-6f0f1acd77de9f7869cf9462ed4d802b.php
+        |-- discover-7563160ca998bde672640aa1e68dfd08.php
+        |-- discover-9abd86d674d0ba851f4ac7b31349196a.php
+        |-- discover-d234df6a22ae2b9b097ac6e3772bd950.php
+        |-- discover-e21db62662e06c142f09087bc0df8ea7.php
+        |-- discover-ea280fb1636eb761c4fd23f76666e397.php
+        |-- _auth.php
+        |-- _facade.php
+        |-- _model_helpers.php
+        |-- _request.php
 |-- vite.config.ts
