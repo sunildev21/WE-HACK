@@ -26,7 +26,7 @@ export default function Dashboard() {
         setLoading(true);
 
         try {            
-            const res = await axios.post('/api/ai-consult', { message });
+            const res = await axios.post(`/api/ai-consult`, { message });
             console.log("AI response:", res.data);
 
             const aiReply = res.data.reply ?? "⚠️ No reply from AI.";
